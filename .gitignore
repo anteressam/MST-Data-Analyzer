@@ -1,0 +1,23 @@
+# Python specific ignores
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.env/
+venv/
+# Virtual environment directories
+env/
+
+# PyInstaller ignores
+build/
+dist/
+*.spec
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Specific to your project (if any)
+# For example, if your exports always go to a specific folder:
+# exported_data/
